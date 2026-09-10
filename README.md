@@ -6,11 +6,11 @@
 </picture>
 
 <p align="center">
-  <a href="#sobre-mi">Sobre mí</a> &nbsp; · &nbsp;
-  <a href="#proyectos">Proyectos</a> &nbsp; · &nbsp;
-  <a href="#saair-lab">SAAIR Lab</a> &nbsp; · &nbsp;
-  <a href="#herramientas">Herramientas</a> &nbsp; · &nbsp;
-  <a href="#github-en-datos">GitHub en datos</a>
+  <a href="#user-content-sobre-mi">Sobre mí</a> &nbsp; · &nbsp;
+  <a href="#user-content-proyectos">Proyectos</a> &nbsp; · &nbsp;
+  <a href="#user-content-saair-lab">SAAIR Lab</a> &nbsp; · &nbsp;
+  <a href="#user-content-herramientas">Herramientas</a> &nbsp; · &nbsp;
+  <a href="#user-content-github-en-datos">GitHub en datos</a>
 </p>
 
 <a name="sobre-mi"></a>
