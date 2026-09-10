@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+<title id="title">Mi enfoque de trabajo</title><desc id="desc">Cuatro ámbitos integrados: ingeniería, software, datos y territorio.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#09151B"/><stop offset="1" stop-color="#112B2C"/></linearGradient>
+ <radialGradient id="aura"><stop stop-color="#80E5C5" stop-opacity=".11"/><stop offset="1" stop-color="#80E5C5" stop-opacity="0"/></radialGradient>
+ <linearGradient id="signal"><stop stop-color="#80E5C5" stop-opacity=".08"/><stop offset=".65" stop-color="#80E5C5"/><stop offset="1" stop-color="#ECCB8E"/></linearGradient>
+ <clipPath id="bounds"><rect width="720" height="720" rx="24"/></clipPath>
+</defs>
+<style>
+ text {font-family: 'Segoe UI', Arial, sans-serif}
+ .mono {font-family: Consolas, 'Liberation Mono', monospace;letter-spacing:2px}
+ .float {animation: float 10s ease-in-out infinite}
+ .pulse {animation: pulse 5s ease-in-out infinite}
+ .pulse2 {animation: pulse 5s ease-in-out -2.5s infinite}
+ .signal {stroke-dasharray:14 140;animation: signal 18s linear infinite}
+ .scan {stroke-dasharray:100 1100;animation: signal 24s linear infinite}
+ @keyframes float {0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+ @keyframes pulse {0%,100%{opacity:.35}50%{opacity:1}}
+ @keyframes signal {to{stroke-dashoffset:-1200}}
+ @media (prefers-reduced-motion:reduce) {.float,.pulse,.pulse2,.signal,.scan{animation:none!important}}
+</style>
+<g clip-path="url(#bounds)"><rect width="720" height="720" fill="url(#bg)"/><text x="40" y="54" font-size="18" fill="#80E5C5" font-weight="400" class="mono">UN PERFIL, CUATRO CONEXIONES</text><path d="M64 146V603" stroke="#315752" fill="none" stroke-width="2"/><path d="M64 146V603" stroke="#80E5C5" fill="none" stroke-width="2" class="signal"/><circle cx="64" cy="149" r="7" fill="#80E5C5"/><rect x="98" y="96" width="582" height="110" rx="12" fill="#112327" stroke="#294444"/><text x="120" y="124" font-size="16" fill="#80E5C5" font-weight="400" class="mono">01</text><text x="120" y="157" font-size="26" fill="#F0F5F2" font-weight="600" >Ingeniería + gestión</text><text x="120" y="186" font-size="20" fill="#B2C7C1" font-weight="400" >Procesos · proyectos · articulación</text><circle cx="64" cy="287" r="7" fill="#96BDFF"/><rect x="98" y="234" width="582" height="110" rx="12" fill="#112327" stroke="#294444"/><text x="120" y="262" font-size="16" fill="#96BDFF" font-weight="400" class="mono">02</text><text x="120" y="295" font-size="26" fill="#F0F5F2" font-weight="600" >Software + automatización</text><text x="120" y="324" font-size="20" fill="#B2C7C1" font-weight="400" >Aplicaciones · flujos · experiencia</text><circle cx="64" cy="425" r="7" fill="#96BDFF"/><rect x="98" y="372" width="582" height="110" rx="12" fill="#112327" stroke="#294444"/><text x="120" y="400" font-size="16" fill="#96BDFF" font-weight="400" class="mono">03</text><text x="120" y="433" font-size="26" fill="#F0F5F2" font-weight="600" >Datos + evidencia</text><text x="120" y="462" font-size="20" fill="#B2C7C1" font-weight="400" >Modelos · indicadores · decisiones</text><circle cx="64" cy="563" r="7" fill="#ECCB8E"/><rect x="98" y="510" width="582" height="110" rx="12" fill="#112327" stroke="#294444"/><text x="120" y="538" font-size="16" fill="#ECCB8E" font-weight="400" class="mono">04</text><text x="120" y="571" font-size="26" fill="#F0F5F2" font-weight="600" >Territorio + comunidad</text><text x="120" y="600" font-size="20" fill="#B2C7C1" font-weight="400" >RSU · educación · agroecosistemas</text><text x="360" y="680" font-size="29" fill="#80E5C5" font-weight="600" text-anchor="middle">Diseñar soluciones útiles.</text></g>
+<rect x=".5" y=".5" width="719" height="719" rx="24" fill="none" stroke="#284345"/>
+</svg>
